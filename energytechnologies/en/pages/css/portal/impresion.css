@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+body{background:transparent}
+
+#contenedorcab, #navegacion2, #compas, #atajo, #contenedor_menupie, #contenedorpie{display:none}
+.dimensioncuerpo{width:auto;float:none}
+#contenedorcuerpo, .dimensioncuerpo, .cuerpo, #envoltura, #situacion, #recurso{width:100%;float:none;padding:0;border:0;background:transparent}
+#pactivo {width:100%;padding:0}
+#recurso{min-height:1px !important;height:auto !important;height:1px;padding:10px 0 0}
+
+
+.modulohome{padding:0;border:0;background:#fff}
+.accesibilidad, .modulohome, .modulo1, .subhome, 
+.moduloboletin, .bloque, .inforel, #proyectosdest{width:auto;float:none}

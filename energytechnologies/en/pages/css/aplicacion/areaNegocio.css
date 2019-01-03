@@ -1,0 +1,18 @@
+@charset "UTF-8";
+@import "../comun/formulario.css";
+@import "../comun/paginacion.css";
+@import "../comun/listado.css";
+
+#a_areanegocio{width:100%}
+
+.introduccion{width:96%;float:left;padding:16px 2%;margin-bottom:20px;background:#e6ecf0}
+.introduccion .texto{padding-top:20px;padding-right:20px;padding-left:20px}
+
+#sectores ul li{width:98%;float:left;padding:10px 1%}
+#sectores ul li p{margin:0}
+
+#a_areanegocio .ficha_tipo1 ul.tipo1 li{padding-bottom:10px;background-image:url(../../img/css/icono/vineta4.gif)}
+
+#proyectosdest.adicional .cajaborde li{background-image:none;padding:9px}
+#proyectosdest.adicional .cajaborde li span.nombre{font-size:1em}
+#proyectosdest.adicional .cajaborde li span.nombre a{font-size:1em;color:#42494e}

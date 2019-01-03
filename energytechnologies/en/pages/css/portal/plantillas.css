@@ -1,0 +1,38 @@
+@charset "UTF-8";
+@import "plantillasPerso.css";
+
+/* ------ */
+.modulo100{width:100%;float:left;}
+
+.img_Sin, .img_Con{float:none;margin:0;vertical-align:middle}
+.img_Sin_L, .img_Con_L{float:left;margin:4px 14px 10px 0}
+.img_Sin_R, .img_Con_R{float:right;margin:4px 0 10px 14px}
+.img_Con, .img_Con_L, .img_Con_R{padding:4px;border:1px solid #e2e8eb}
+
+div.hrtipo1{}
+div.hrtipo1 hr.tipo1{}
+hr.tipo2{color:#0000ff;background:#0000ff}
+
+ul.tipo1 li, ul.tipo2 li{padding:0 0 3px 25px;background:transparent url(../../img/css/icono/vineta8.gif) no-repeat 15px 8px;line-height:1.6em}
+ul.tipo2 li{background:transparent url(../../img/css/icono/vineta9.gif) no-repeat 8px 8px}
+ul.tipo1 li ul, ul.tipo2 li ul{margin:5px 0 2px}
+	ul.tipo1 li li{background-image:url(../../img/css/icono/vineta10.gif)}
+	ul.tipo2 li li{background-image:url(../../img/css/icono/vineta17.gif);background-position:14px 7px}
+
+td.tipo1, th.tipo1{}
+td.tipo2, th.tipo2{}
+
+/* anclas */
+a.ancla_destino{position:absolute;visibility:hidden}
+a.ancla_origen{text-decoration:underline;}
+/* enlaces */
+/* cuando enlazo un contenido sin seleccionar ningun texto */ a.enlace_interno{}
+/* enlace de tipo correo */ a.enlace_email{}
+
+/*pongo os estilos al h4.tipo1 y al h3.tipo2 por si no tiene titulo*/
+h2.tipo2, h3.tipo2, h4.tipo1{margin-left:5px;padding:0 0 5px 20px;font-size:1.5em;color:#71797e;background:transparent url(../../img/css/icono/vineta2.gif) no-repeat 2px 8px}
+h3.tipo1 strong{width:99.6%;float:left;margin:0 0 15px 30px;padding:1px 0.4% 6px;text-indent:-30px;border-bottom:1px solid #b6b6b6;color:#ef1f43;text-transform:uppercase;font-weight:normal;font-size:.8em}
+h4.tipo1, h3.tipo2{color:blue !important}
+h4.tipo2, h5.tipo2, h6.tipo2{color:#0000ff}
+
+div:after{clear:both;display:block;content:'&nbsp;';height:0px;visibility:hidden;}

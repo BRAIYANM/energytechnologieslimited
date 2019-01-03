@@ -1,0 +1,4 @@
+@charset "UTF-8";
+@import "../comun/formulario.css";
+
+.intro{background-image:url(../../img/css/aplicacion/contacto.gif);background-position:5px 5px}

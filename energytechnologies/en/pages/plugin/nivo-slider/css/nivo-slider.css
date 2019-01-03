@@ -1,0 +1,119 @@
+/*
+ * jQuery Nivo Slider v2.5.1
+ * http://nivo.dev7studios.com
+ *
+ * Copyright 2011, Gilbert Pellegrom
+ * Free to use and abuse under the MIT license.
+ * http://www.opensource.org/licenses/mit-license.php
+ * 
+ * March 2010
+ */
+ 
+ 
+/* The Nivo Slider styles */
+.nivoSlider {
+	position:relative;
+	z-index: 0;
+	background:url(../img/loading.gif) no-repeat 50% 50%;
+}
+.nivoSlider img {
+	position:absolute;
+	top:0;
+	left:0;
+	z-index:0;
+}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:100%;
+	height:100%;
+	border:0;
+	padding:0;
+	margin:0;
+	z-index:1000;
+	display:none;
+}
+/* The slices and boxes in the Slider */
+.nivo-slice {
+	display:block;
+	position:absolute;
+	z-index:5;
+	height:100%;
+}
+.nivo-box {
+	display:block;
+	position:absolute;
+	z-index:5;
+}
+/* Caption styles */
+.nivo-caption {
+	position:absolute;
+	left:0;
+	bottom:0;
+	height:37px;
+	color:#282b2b;
+	width:85%;
+	padding:10px 15% 10px 0;
+	z-index:8;
+	background:transparent url(../img/overlay2.png) repeat-x 0 100%;
+}
+.nivo-caption p {
+	padding:0 0 0 20px;
+	margin:0;
+	font-size:2em;
+}
+
+.nivo-caption a {
+	display:inline !important;
+}
+.nivo-html-caption {
+    display:none;
+}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {
+	position:absolute;
+	bottom:0;
+	z-index:10000;
+	cursor:pointer;
+	width:55px;
+	height:55px;
+	border:1px solid #000;
+	background-image:url(../img/arrows2.gif);
+	text-indent:-90000px;
+}
+.nivo-prevNav {
+	right:57px;
+	background-position:0 0
+}
+.nivo-nextNav {
+	right:0;
+	background-position:100% 0
+}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav {
+	position:absolute;
+	z-index:1000;
+	right:15px;
+	bottom:15px;
+}
+
+.nivo-controlNav a {
+	position:relative;
+	z-index:9;
+	cursor:pointer;
+	margin:0 2px;
+	width:8px;
+	height:8px;
+	display:block;
+	float:left;
+	background-image:url(../img/bullets.png);
+	background-position:50% 100%;
+	text-indent:-90000px;
+}
+.nivo-controlNav a:hover,
+.nivo-controlNav a.active {
+	font-weight:bold;
+	background-position:50% 0;
+}

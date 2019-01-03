@@ -1,0 +1,7 @@
+@charset "UTF-8";
+#a_error{width:70%;margin:20px auto;padding:30px;background:#e6ecf0;min-height:20px !important;height:auto !important;height:20px;}
+#errorejecucion{width:92.9%;float:left;padding:70px 3.5% 20px;background:#fff url(../../img/css/aplicacion/errorUrl.gif) no-repeat 0 0;color:#535354}
+#errorejecucion h2{padding:5px 0 12px;font-size:1.6em;color:#0000ff;}
+#errorejecucion ul{margin:0 0 12px;}
+#errorejecucion ul li{padding:2px 0 2px 18px;background:transparent url(../../img/css/icono/vineta3.gif) no-repeat 8px 8px;font-size:.9em}
+#errorejecucion p{}

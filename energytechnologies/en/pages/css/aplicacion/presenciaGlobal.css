@@ -1,0 +1,13 @@
+@charset "UTF-8";
+@import "proyectoDestacado.css";
+@import "../comun/formulario.css";
+@import "../comun/paginacion.css";
+@import "../comun/listado.css";
+
+#geografica.adicional .cajaborde a{color:#5e676e;font-weight:bold;font-size:1em}
+
+p.masinfo{margin-bottom:35px;border-bottom:4px solid #e2e8eb}
+.introduccion .caja_img{width:265px}
+.introduccion .texto{margin-left:290px}
+
+#proyectosdest .nombre{font-size:1em}

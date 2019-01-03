@@ -1,0 +1,4 @@
+@charset "UTF-8";
+/* podria heredar de la de error.css */
+#a_error404{width:70%;margin:20px auto;padding:30px;background:#e6ecf0;min-height:20px !important;height:auto !important;height:20px;}
+#a_error404 #errorejecucion{background-image:url(../../img/css/aplicacion/error404.gif)}

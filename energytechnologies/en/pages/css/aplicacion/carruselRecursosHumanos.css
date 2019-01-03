@@ -1,0 +1,7 @@
+@charset "UTF-8";
+@import"../../plugin/jcarousel/css/skin.css";
+
+/* estilos del carrusel definidos 
+   en la css del plugin */
+
+#a_sliderpersonas{margin-bottom:20px;padding-bottom:20px;border-bottom:4px solid #e2e8eb}

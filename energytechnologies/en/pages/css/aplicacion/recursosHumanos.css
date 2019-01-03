@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+.bocatamapa{width:320px;padding:15px;background:transparent url(../../img/css/aplicacion/transparencia2.png) repeat 0 0}
+.bocatamapa ul{margin-left:90px}
+.bocatamapa li{padding-bottom:5px}
+.bocatamapa strong{font-size:1.2em;color:#42494e}
+.bocatamapa span{font-size:.9em}
+.bocatamapa span strong{font-size:1em;font-weight:normal;color:#0000ff}

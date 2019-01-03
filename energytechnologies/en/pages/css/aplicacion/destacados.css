@@ -1,0 +1,5 @@
+@charset "UTF-8";
+@import "../../plugin/nivo-slider/css/nivo-slider.css";
+
+#a_destacados{width:100%;float:left}
+#a_destacados .nivoSlider{height:350px;overflow:hidden}

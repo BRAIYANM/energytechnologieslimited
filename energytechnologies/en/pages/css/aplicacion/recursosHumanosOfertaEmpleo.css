@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@import "../comun/formulario.css";
+@import "../comun/paginacion.css";
+@import "../comun/listado.css";
+@import "../comun/ficha.css";
+
+#a_rrhhofertas .listado_tipo1 span{display:block;}
+#a_rrhhofertas .listado_tipo1 span.puesto{padding-bottom:2px;font-size:1.2em;font-weight:bold}
+#a_rrhhofertas .listado_tipo1 span.puesto a{color:#42494e !important}
+#a_rrhhofertas .listado_tipo1 span.puesto em, #a_rrhhofertas .ficha_tipo1 h3.puesto em{font-size:.9em;color:#0000ff}
+
+#a_rrhhofertas .ficha_tipo1 p.tipo{padding-top:5px}
+#a_rrhhofertas .ficha_tipo1 .textoficha{padding:15px 0 0;border-top:1px solid #E2E8EB}
+#a_rrhhofertas .ficha_tipo1 .textoficha ul li{padding:0 0 3px 25px;background:transparent url(../../img/css/icono/vineta8.gif) no-repeat 15px 8px;line-height:1.6em}
+#a_rrhhofertas .ficha_tipo1 .btn{width:98%;float:left;padding:12px 1% 0;margin:10px 0;border-top:1px solid #E2E8EB}
+#a_rrhhofertas .ficha_tipo1 .btn a{float:right;padding:3px 9px 2px;background:#242729;color:#fff !important;text-decoration:none !important;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	-o-border-radius:5px;
+	-ms-border-radius:5px;
+	border-radius:5px;
+}

@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+@import "../comun/paginacion.css";
+
+.intro{width:57.5%;float:left;min-height:5em !important;height:auto !important;height:5em;margin:3px 0 20px;padding:20px 40% 10px 2.5%;border-bottom:1px solid #e2e8eb;background:transparent url(../../img/css/aplicacion/fondoMediateca.jpg) no-repeat 100% 100%}
+.intro p.dest{padding-left:50px;background:transparent url(../../img/css/portal/comillas.gif) no-repeat 12px 0}
+
+.intro select{vertical-align:middle;margin-right:10px;font-size:.9em;color:#0000ff}
+.intro select option{padding-right:6em}
+.intro input{vertical-align:middle;padding:0;border:0}
+
+#a_mediateca .marco{width:93.7%;padding:25px 3%}
+#a_mediateca .marco ul{margin:0}
+#a_mediateca .marco li{float:left;margin:2px;position:relative}
+
+/* categorias o albumes (paso 1) */
+#album .marco li a, #album .marco li a:hover{color:#42494e !important;text-decoration:none !important}
+#album .marco li span.cat{width:13.7em;display:block;padding:15px 1em 10px;background:#e2e8eb;font-weight:bold;font-size:.9em;text-align:center;cursor:pointer}
+#album .marco li span.capaover{position:absolute;top:0;left:0;display:none;width:170px;height:155px;background:transparent url(../../img/css/aplicacion/albumOver.png) no-repeat 0 0}
+
+/* listado de imagenes o videos (paso 2) */
+#a_mediateca #media .marco{margin-top:10px;border-top:1px solid #e2e8eb}
+
+.categoria{width:95%;float:left;padding:5px 2.5%;background:transparent url(../../img/css/aplicacion/fondoTiCategoria.gif) repeat-x 0 100%}
+.categoria h3{float:left;padding:0 0 0 15px;background:transparent url(../../img/css/icono/vineta2.gif) no-repeat 0 9px}
+.categoria .volver{float:right}
+
+#media .marco li{width:12.5em;padding:20px 0 0;background:#a2acb3;font-size:.9em}
+	#media #videos.marco li{padding-bottom:18px} 
+#media .marco li .thumb{position:relative;display:block;text-align:center}
+#media .marco li img{border:5px solid #fff}
+
+#media li span.capaover{width:80%;padding:15px 10%;display:block;;text-align:left}
+#media li span.capaover span.cat{display:block;margin-bottom:10px;color:#fff}
+#media li span.capaover a{padding:0 0 1px 20px;background:transparent url(../../img/css/icono/mas2.gif) no-repeat 0 1px;color:#fff;text-decoration:none}
+#media li span.capaover a:hover{color:#fff!important}
+	#media li.active span.capaover{position:absolute;z-index:1000;top:-20px;left:0;min-height:93px!important;height:auto!important;height:93px;background:#8e979d}
+	
+#media li .desc{display:block;margin-top:15px;padding:15px 10px 13px;border-top:4px solid #fff;background:#e2e8eb}
+#media li .desc a{padding-right:25px;background:transparent url(../../img/css/icono/descargar2.gif) no-repeat 100% 0;color:#71797e;text-decoration:none}

@@ -1,0 +1,37 @@
+@charset "UTF-8";
+@import "../comun/formulario.css";
+
+.intro{background-image:url(../../img/css/aplicacion/contacto.gif);background-position:5px 5px}
+
+
+/* secciones */
+.form_tipo0 .seccion, .form_tipo0 .subseccion{}
+.form_tipo0 .seccion strong, .form_tipo0 .subseccion strong{width:94%;float:left;display:block;margin:7px 0 15px;padding:8px 3% 5px;font-size:1.3em;color:#333;background:#eef1f3}
+.form_tipo0 .seccion span, .form_tipo0 .subseccion span{display:block;padding:0 3% 15px}
+
+/* manipulamos el tamanio de campos */  
+.form_tipo0 .campo100.size8 input{width:auto}
+.form_tipo0 .campo100.size32 input{width:50%}
+.form_tipo0 .campo100.size52 input{width:67%}
+	.form_tipo0 .campo100.size32 .desccampo, .form_tipo0 .campo100.size52 .desccampo,
+	.form_tipo0 .textarea.size13 .desccampo{display:block}
+	
+.form_tipo0 .textarea.size2 textarea{height:3em}
+.form_tipo0 .textarea.size8 textarea{height:6em}
+.form_tipo0 .textarea.size13 textarea{width:98%;height:10em}
+
+/* ----- ESTADISTICAS -----  */
+#a_estadisticas{width:100%;float:left}
+#a_estadisticas h3.titulo{}
+#a_estadisticas h4.nombre{}
+
+#a_estadisticas ul{margin:30px 0 0}
+#a_estadisticas li{clear:left;padding:8px 0;background:transparent}
+#a_estadisticas strong.pregunta{display:block;font-size:1.1em;font-weight:normal}
+#a_estadisticas div.resultado{clear:both;margin-top:10px}
+#a_estadisticas em.pregunta{width:40%;float:left;font-size:1.1em;border:1px solid #fff;font-style:normal}
+#a_estadisticas span.respuestas{width:10%;float:left;color:#000;font-size:.9em;text-align:right}
+#a_estadisticas span.valor{float:left;margin:0;font-size:1.1em;font-weight:normal}
+	.grafico{width:180px;height:21px;float:left;margin:-5px 10px 0;padding:2px;border:1px solid #dbdde0}
+	.grafico .gr{position:relative;width:178px;height:19px;float:left;border:1px solid #dbdde0;background:transparent url(../../img/css/aplicacion/estadisticasBarra.gif) repeat-x 0 100%}
+	.barra{float:left;position:absolute;top:0;left:0;z-index:0;height:19px;background:transparent url(../../img/css/aplicacion/estadisticasFondo.png) repeat 0 0}

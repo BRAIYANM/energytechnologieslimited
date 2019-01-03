@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@import "../comun/formulario.css";
+@import "../comun/paginacion.css";
+@import "../comun/listado.css";
+@import "../comun/ficha.css";
+
+.textoficha h4{font-size:1.4em}
+
+#imgrelacionadas{clear:left}
+#imgrelacionadas, #imgrelacionadas h4{background:transparent url(../../img/css/aplicacion/fondoHsup.gif) repeat-x 0 100%}
+#imgrelacionadas{padding-bottom:28px;background-image: url(../../img/css/aplicacion/fondoHinf.gif)}
+#imgrelacionadas h4 span{display:block;padding:6px 0 4px 50px;background:transparent url(../../img/css/icono/icoFotos.gif) no-repeat 5px 0}

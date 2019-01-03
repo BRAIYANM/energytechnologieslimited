@@ -1,0 +1,14 @@
+@charset "UTF-8";
+#popup_container{width:450px;padding:0;border:15px solid #e6ecf0;border-top:0;background:#fff url(../img/container.gif) repeat-x 0 0;font:70% normal Arial, Verdana, Helvetica, sans-serif;color:#71797e;text-align:left}
+#popup_title{width:auto;position:static;z-index:100;margin:25px .5em 0;padding:0;font:bold 3em Arial;color:#d6dbde;text-align:left}
+#popup_content{width:100%;padding:20px 0 15px;background: transparent url(../img/alertInfo.gif) no-repeat 25px 20px}
+	#popup_content.alert {background-image: url(../img/alertWarning.gif)}
+	#popup_content.confirm {background-image: url(../img/alertImportant.gif)}
+	#popup_content.prompt {background-image: url(../img/alertHelp.gif)}
+#popup_message{width:75%;float:right;min-height:70px !important;height:auto !important;height:70px}
+#popup_message ul{margin:0}
+#popup_message ul li{padding:3px 0 3px 25px;background:transparent url(../../../img/css/icono/vineta9.gif) no-repeat 8px 8px}
+
+#popup_panel{float:left;margin:10px 0 0 195px;display:inline;padding:0}
+#popup_panel input{display:block;width:auto;margin:0;padding:5px 5px 3px;border:1px solid #e6ecf0;text-align:center;cursor:pointer;outline:none}
+*>/**/#popup_panel input{padding:8px 13px 5px}

@@ -1,0 +1,27 @@
+@charset "UTF-8";
+@import "../../plugin/bxslider/jquery.bxslider.css";
+
+#a_noticiadest #carrusel{width:100%;float:left;padding:0 0 3px}
+#a_noticiadest h2 a{color:#42494E}
+#a_noticiadest li .nombre{display:block;padding:0 0 4px 80px;margin:10px 0 0;background:transparent url(../../img/css/aplicacion/comillas2.gif) no-repeat 0 2px;min-height:50px !important;height:auto !important;height:50px}
+#a_noticiadest li .nombre a{color:#353b3b !important;font-size:1.4em}
+#a_noticiadest li .fecha{display:block;padding:18px 0 8px;font-weight:bold;color:#0000ff}
+#a_noticiadest li p{padding:0 0 4px;line-height:1.3em}
+
+#a_noticiadest .bx-wrapper {margin:0}
+#a_noticiadest .bx-wrapper .bx-viewport {box-shadow:none !important;border:none;left:0}
+#a_noticiadest .bx-wrapper .bx-pager{top:-24px;bottom:auto;padding:0;width:50%;text-align:right;right:0}
+#a_noticiadest .bx-wrapper .bx-pager .bx-pager-item {width:20px;}
+#a_noticiadest .bx-wrapper .bx-pager.bx-default-pager a {text-indent: 9999px;background: #dce1e4;
+	width: 12px;
+	height: 12px;
+	-webkit-border-radius:6px;
+	-moz-border-radius:6px;
+	-o-border-radius:6px;
+	-ms-border-radius:6px;
+	border-radius:6px;
+}
+#a_noticiadest .bx-wrapper .bx-pager.bx-default-pager a:hover, #a_noticiadest .bx-wrapper .bx-pager.bx-default-pager a.active {background: #0000ff;}
+
+#a_noticiadest .vertodos{width:100%;float:left}
+#a_noticiadest .vertodos a{float:left;padding:0 0 0 25px;background:transparent url(../../img/css/icono/mas.gif) no-repeat 0 45% !important;text-transform:uppercase;color:#140e06}

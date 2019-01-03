@@ -1,0 +1,107 @@
+@charset "UTF-8";
+@import "../../plugin/datepicker/css/calendario.css";
+
+.clr{clear:both}
+
+/* -------------------------- */
+.obligatorio{margin:25px 4% 15px;padding:7px 20px;border:1px dashed #a1a9ae;font-size:.9em;font-style:italic}
+.cuerpoform{width:92%;float:left;padding:20px 4% 10px}
+.cuerpoform p{padding-bottom:10px}
+.etiqueta, .etiquetarequerida{width:30%;float:left;margin-top:-1px;padding:0 5px 0 0;color:#71797e}
+.asterisco{color:#f00;font-size:1.2em}
+.desccampo{vertical-align:middle;padding:0 0 0 5px;font-size:.9em;color:#42494e}
+
+/* ELEMENTO CHECKBOXES  // RADIOS */
+.checkboxes, .radios{width:100%;float:left;padding-bottom:10px}
+.checkboxes .desccampo, .radios .desccampo{display:block;padding:5px 0;font-size:.9em}
+.opciones {width:67%;float:left;margin-top:3px}
+.opciones label{width:45%;float:left;padding:0 5% 7px 0;font-size:.9em}
+.opciones input{width:auto!important;float:left;padding:0 !important;border:0 !important;background:transparent !important}
+.opciones span{display:block;margin-left:2em}
+.checkboxes .desccampo, .radios .desccampo{width:69%;float:right}
+
+/* ELEMENTO CHECK */
+.checkbox{width:96%;float:left;margin-top:15px;padding:10px 2%;background:transparent url(../../img/css/portal/puntosH_1.gif) repeat-x 0 0;cursor:pointer;font-size:.9em}
+.checkbox input{width:auto  !important;float:left;margin:-1px 5px 0;padding:0 !important;border:0 !important;background:transparent !important}
+*>/**/.checkbox input{margin-top:2px}
+.checkbox span{display:block;margin-left:1em}
+.checkbox .asterisco{float:left;margin:0}
+.checkbox a{text-decoration:underline}
+
+/* ELEMENTO COMBO */
+.combo{width:100%;float:left;padding-bottom:10px}
+
+/* ELEMENTO TEXTAREA */
+.textarea{width:100%;float:left;padding-bottom:10px}
+
+/* ELEMENTO FIELDSET */
+.fieldset{width:99.9%;float:left}
+.fieldset legend{}
+.divfieldset{}
+
+/* ELEMENTO FILE */
+.inputfile{}
+.inputfile input{cursor:pointer}
+
+/* ELEMENTO CAPTCHA */
+.zonacaptcha{width:96%;float:left;margin-bottom:15px;padding:10px 3% 5px;background:#f6f5ec}
+.zonacaptcha img{vertical-align:top;margin:5px 10px 0 0}
+.zonacaptcha input{cursor:pointer;margin-top:5px}
+
+/* ELEMENTO FECHAS */
+.fechas{width:100%;float:left}
+.titulofecha{}
+.fechas label{margin-right:10px}
+.fechas img{vertical-align:top;margin:2px 0 0 5px}
+.fechas input{width:5.5em}
+
+/* ELEMENTO TEXTO */
+p.texto{width:99.5%}
+
+/* ELEMENTO BOTON */
+.botones{width:100%;float:left;margin-top:15px}
+
+.botones span{display:block;float:right;padding-right:4px;background:transparent url(../../img/css/aplicacion/botonDcha.gif) no-repeat 100% 0}
+.botones input{padding:3px 5px 3px 10px;border:0;background:transparent url(../../img/css/aplicacion/botonIzda.gif) no-repeat 0 0;color:#fff;cursor:pointer;text-transform:lowercase;font-size:.9em;min-height:21px;}
+
+/* MENSAJE CONFIRMACION */
+#a_mensaje{width:75%;margin:20px auto;padding:25px;background:#e6ecf0;min-height:20px !important;height:auto !important;height:20px;}
+#a_mensaje #confirmacion{width:92.9%;float:left;padding:70px 3.5% 20px;background:#fff url(../../img/css/aplicacion/confirmacionEnvio.gif) no-repeat 0 0;color:#535354}
+#a_mensaje h3{padding:7px 0;font-size:1.6em;color:#ef3e42;background:none}
+#a_mensaje ul{margin:0 0 12px;}
+#a_mensaje ul li{padding:2px 0 2px 18px;background:transparent url(../../img/css/icono/vineta3.gif) no-repeat 8px 8px;font-size:.9em}
+
+/* ERROR VALIDACION */
+#errorvalidacion{width:93.5%;margin:0 0 20px;padding:15px 3% 5px;border:1px solid #e6ecf0;}
+#errorvalidacion ul{margin:0 0 12px;}
+#errorvalidacion ul li{padding:2px 0 2px 18px;background:transparent url(../../img/css/icono/vineta3.gif) no-repeat 8px 8px;font-size:.9em}
+
+
+/* tamanio de los bloques que componen los campos (en caso de necesitar nuevos se nombreran de esta manera "campo+logitud del campo") */
+.campo50, .campo50r{width:48%}
+.campo50r{float:right}
+.campo30{width:32%}
+ 
+
+/* ------------------------ tipos de formularios -----------------------------
+	.form_tipo0, [FORMULARIO DINAMICO]
+	.form_tipo1, [TIPO ENVIO - contacto, enviar pagina]
+	.form_tipo2, [TIPO BUSQUEDA - noticias, eventos, boletines]
+	.form_tipo3, [AREAS DE NEGOCIO]
+-------------------------------------------------------------------------------- */
+.form_tipo1 form, .form_tipo0 form{width:99.8%;float:left;border:1px solid #e2e8eb;background:#fff}
+.form_tipo1 .botones, .form_tipo0 .botones{text-align:right}
+
+.form_tipo2 .cuerpoform, .form_tipo3 .cuerpoform{width:90%;margin-bottom:20px;padding:15px 5% 0;background:#8e979d url(../../img/css/aplicacion/separadorForm.gif) repeat-x 0 100%}
+.form_tipo3 .cuerpoform{margin-bottom:0;background:#e2e8eb}
+
+.form_tipo2 h3 span{color:#ee1f40}
+.form_tipo2 .etiqueta{width:100%;padding:0 0 3px;float:none;display:block;color:#fff}
+.form_tipo2 .combo select{width:81.5%}
+.form_tipo2 .campo100 input{width:80%}
+
+.form_tipo3{min-height:100px !important;height:auto !important;height:100px;padding:4px;border:1px solid #e2e8eb;background:#fff}
+.form_tipo3 .etiqueta, .form_tipo3 .etiquetarequerida{color:#42494e}
+.form_tipo3 .campo100 input{width:60%}
+/*.form_tipo3 .combo select{width:61%}*/
+.form_tipo3 .botones{margin-top:5px}

@@ -1,0 +1,18 @@
+@charset "UTF-8";
+#a_mapaweb{width:95.5%;padding:10px 2% 30px;border:1px solid #dbe0e4;}
+#a_mapaweb ul{width:100%;float:left;margin:0}
+#a_mapaweb li{width:100%;float:left;margin:0 0 20px;padding:20px 0;border-bottom:6px solid #dbe0e4}
+#a_mapaweb li a{width:12.5em;float:left;padding:0 0 0 .7em;font-size:1.5em;background:transparent url(../../img/css/icono/vineta13.gif) no-repeat 0 8px}
+
+#a_mapaweb ul ul{width:auto;float:none;margin:0 0 0 21em;}
+#a_mapaweb li li{margin:0;padding:3px 0 5px;border:0;}
+#a_mapaweb li li a{width:14em;font-size:1em;padding:1px 0 0 .9em;color:#42494e;background:transparent url(../../img/css/icono/vineta5.gif) no-repeat 0 7px}
+
+#a_mapaweb ul ul ul{margin:0 0 0 16em;border-left:2px solid red;}
+#a_mapaweb li li li{width:auto;float:none;padding:1px 0 5px 20px;}
+#a_mapaweb li li li a{width:auto;background:none;color:#8e979d;padding:0;font-size:.9em}
+div>/**/#a_mapaweb li li li a{float:none;}
+
+#a_mapaweb ul ul ul ul{border:none;padding:3px 0;margin:0;}
+#a_mapaweb li li li li{padding:7px 5px 1px 40px;}
+#a_mapaweb li li li li a{color:#0000ff;}

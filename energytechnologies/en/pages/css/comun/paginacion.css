@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.paginacion{width:97%;float:left;padding:0 1.5% 5px;margin:0 0 15px;text-align:center;border-bottom:1px solid #dbe0e4}
+	.paginacion.paginf{margin-top:40px}
+.paginacion *{margin:0;padding:0;background:transparent;font-weight:normal;list-style-type:none;text-decoration:none}
+
+.paginacion p{float:left}
+.paginacion ol{float:right;font-size:.9em}
+
+.paginacion p{margin-top:-4px;color:#71797e;font-style:italic}
+.paginacion li.numeropag{margin:0}
+.paginacion li.numeropag span{display:inline-block;padding:0 3px}
+.paginacion li.numeropag a:hover span,
+.paginacion li.numeropag span{background:#ee1f40;color:#fff}
+.paginacion li.numeropag a span{color:#71797e;background:#dbe0e4}
+.paginacion li{display:inline;text-transform:capitalize}
+.paginacion li a img{display:none}
+.paginacion li a:hover img{background:#cc1b1c}
+.paginacion li a{color:#71797e}
+.paginacion li.sigpag{margin-left:7px}
+.paginacion li.antpag{margin-right:7px}
+
+	
+	#buscador_proyectos .paginacion{margin-top:30px}
+	#buscador_proyectos .paginacion.paginf{margin-top:15px}

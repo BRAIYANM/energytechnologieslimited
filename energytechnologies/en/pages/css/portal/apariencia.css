@@ -1,0 +1,6 @@
+@charset "UTF-8";
+/*cambia la estructura cuando no hay menus secundarios y el menu esta dividido en un principal horizontal y el resto laterales*/
+
+#pactivo, #recurso{width:100%}
+.destacados .info{width:96.6%}
+.moduloizda{width:67.5%}

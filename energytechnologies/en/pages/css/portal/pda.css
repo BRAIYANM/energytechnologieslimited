@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.hide-with-script{display:block}
+
+.hidden, .mensaje{display:none}
+
+#contenedor_menupie{display:none}
+
+.dimensioncuerpo, #pie, #encabezado, .menupie{width:100%;padding:0}
+#contenedorcuerpo{background:#fff}
+.cuerpo{background:#fff}
+#envoltura{width:100%;float:none;padding:0;border:0}
+#situacion, #atajo{width:100%;float:none}
+#navegacion{width:100%;border:0}
+#navegacion2{width:100%;float:none;margin:0;padding:0;border:0}
+#situacion, #atajo, #compas{float:none}
+#recurso{width:auto;min-height:10px !important;height:auto !important;height:10px;float:none;padding:10px 10px 0}
+
+.logo h1{position:static;background:#d12022}
+.logo p{display:none}
+.cajautilidades{float:none;padding:0;text-align:left;background:transparent}
+#utilidades{float:none;margin:0;padding:0;background:transparent}
+#utilidades li, #capaidioma li,
+#utilidades li.inicio, #utilidades li.ultimo, #utilidades li.idioma, #utilidades li.areaprivada{float:none;display:block;margin:0;padding:7px 0;background:transparent url(../../img/css/portal/puntosH_2.gif) repeat-x 0 100%}
+#utilidades li.idioma{background:transparent}
+#capaidioma span{display:none}
+#capaidioma .hide-with-script{width:auto;position:static;background:transparent}
+#capaidioma ul{padding:0;margin:0;border-top:0}
+#utilidades li a{padding-left:15px;background:transparent url(../../../error404.html) no-repeat 3px 5px}
+
+#navegacion{width:100%}
+#n1 li{float:none;display:block;padding:5px;border-bottom:1px solid #cfd4d7;background:transparent}
+
+#n2 li a{margin:0;padding-left:25px}
+#n2 li{background-position:12px 12px}
+#n3{border:0}
+
+#buscadorGeneralForm{width:auto;float:none;clear:none}
+#buscadorGeneralForm div{float:left;padding:7px 10px 0}
+
+#pie{padding:15px 10px 10px}
+.seccion1, .seccion2{width:auto;float:none;padding:0 0 5px;text-align:center}
+#pie p{padding:0;margin:0}
+
+#compas{width:auto;padding:5px 20px 0}
+#pactivo{width:100%;float:none}
+#pactivo h2{background-position:5px 12px}
+
+/* plantillas perso */
+.carrusel{display:none}
+.modulohome{width:100%;padding:0;border:0}
+.modulohome .moduloizda, 
+.moduloizda, .modulodcha{width:100%}
+.modulodcha{padding-top:15px}
+.banners_home ul li{width:auto;float:none;padding:0 0 10px!important}
+
+.cajadest{width:100%;padding:0 0 10px}
+
+.subhome .colum{width:100%;float:none;padding:0}
+
+/* formularios */
+.etiqueta, .etiquetarequerida{width:100%;display:block;float:none;padding:0 0 5px}
+.opciones {width:100%;float:none}
+.opciones label{width:100%;display:block;float:none;padding:0 0 7px}
+.desccampo, .checkboxes .desccampo, .radios .desccampo{width:100%;float:none;display:block;padding:0}
+
+/* aplicaciones */
+#a_mapaweb{width:100%;padding:0;border:0}
+#a_mapaweb ul, #a_mapaweb ul ul, #a_mapaweb ul ul ul, #a_mapaweb li{width:auto;float:none;display:block;margin:0;padding:0;border:0}
+#a_mapaweb li a, #a_mapaweb li li a{width:auto;float:none;padding:0 0 0 12px;background-position:0 5px}
+#a_mapaweb li li a{background-position:2px 4px}
+#a_mapaweb li li li li{padding:4px 0 0}
+#a_mapaweb ul ul{margin:10px}
+#a_mapaweb ul ul ul{margin:10px 0}
+#a_mapaweb ul ul ul ul{margin:10px}
+
+#resultados{width:100%;padding:0;border:0}
+#listadoitems{width:100%;padding:15px 0 0;border:0}
+.elementos ul li{width:100%}
+.redsocial{display:none}
+
+.introduccion{width:100%;padding:0;background:transparent}
+.introduccion .caja_img{width:auto;float:none;padding-bottom:15px}
+.introduccion .texto{min-height:10px!important;height:auto!important;height:10px;margin:0;padding:0}
+#sectores ul li {width:auto;min-height:10px!important;height:auto!important;height:10px;float:none!important;margin:0 0 10px;padding:0 0 10px}
+
+#carrusel, #proyectosrel, #imgrelacionadas{display:none}
+
+#a_mensaje, #a_error, #a_error404{width:100%;margin:0}
